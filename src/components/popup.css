@@ -1,6 +1,6 @@
 .card.indexShowHelp {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     background-color: red;
     background-image: url("/vinylCoverImages/ALWhiteStripesCoverSleeve.webp");
     background-size: cover;
@@ -9,7 +9,7 @@
     color: transparent;
     border-radius: 2px;
     z-index: 19;
-    top: 3rem;
+    top: 34rem;
     right: 18rem;
 }
 
@@ -70,14 +70,44 @@
     color: #777
 }
 
+@media (min-width: 400px) {
+    .card.indexShowHelp {
+        height: 200px;
+        width: 200px;
+        left: -10%;
+        top: 35rem;
+        right: 18rem;
+    }
+
+    .contactContent {
+        width: 30%;
+        margin-left: 70%;
+    }
+}
+
 @media (min-width: 600px) {
     .card.indexShowHelp {
         height: 300px;
         width: 300px;
         bottom: auto;
-        left: 6%;
+        left: -43%;
         top: 5rem;
         z-index: 15;    
+    }
+
+    .contactContent {
+        width: 30%;
+        margin-left: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .card.indexShowHelp {
+        height: 280px;
+        width: 280px;
+        bottom: auto;
+        right: 18%; 
+        top: 10rem;
     }
 
     .contactContent {

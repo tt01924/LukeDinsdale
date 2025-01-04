@@ -10,7 +10,7 @@
     border-radius: 2px;
     z-index: 11;
     /* bottom: 45rem; */
-    top: -7rem;
+    top: -11rem;
     right: -4rem;
     transform:rotate(0deg);
 }
@@ -76,13 +76,43 @@
 
 
 
+@media (min-width: 400px) {
+    .card.indexShowHelpTopicals {
+        height: 200px;
+        width: 200px;
+        bottom: auto;
+        right: -4rem;
+        top: -11rem;
+    }
+
+    .contactContent {
+        width: 30%;
+        margin-left: 70%;
+    }
+}
+
 @media (min-width: 600px) {
     .card.indexShowHelpTopicals {
         height: 280px;
         width: 280px;
         bottom: auto;
-        right: 10%; 
-        top: 12rem;
+        right: 1%; 
+        top: 30rem;
+    }
+
+    .contactContent {
+        width: 30%;
+        margin-left: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .card.indexShowHelpTopicals {
+        height: 280px;
+        width: 280px;
+        bottom: auto;
+        right: 1%; 
+        top: 10rem;
     }
 
     .contactContent {
